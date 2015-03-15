@@ -1,0 +1,103 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+E:\比赛\科技立项\USER\Test.uvproj
+Project File Date:  03/07/2015
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling alarm.c...
+..\HARDWARE\ALARM\alarm.c(19): warning:  #1-D: last line of file ends without a newline
+  }
+..\HARDWARE\ALARM\alarm.c: 1 warning, 0 errors
+linking...
+Program Size: Code=60394 RO-data=182646 RW-data=920 ZI-data=44536  
+FromELF: creating hex file...
+"..\OBJ\Test.axf" - 0 Error(s), 1 Warning(s).
+</pre>
+</body>
+</html>
+ give arg types
+  void Gps_Gpgll_Process();
+..\HARDWARE\GPS\gps.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\TOOLS\tools.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\ALARM\alarm.h(4): warning:  #1295-D: Deprecated declaration alarm_init - give arg types
+  void alarm_init();
+..\HARDWARE\ALARM\alarm.h(5): warning:  #1295-D: Deprecated declaration alarm_start - give arg types
+  void alarm_start();
+..\HARDWARE\ALARM\alarm.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+main.c(31): warning:  #111-D: statement is unreachable
+        return 0;
+main.c(32): warning:  #1-D: last line of file ends without a newline
+  }
+main.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=60394 RO-data=182646 RW-data=920 ZI-data=44536  
+FromELF: creating hex file...
+"..\OBJ\FATFS.axf" - 0 Error(s), 10 Warning(s).
+ocess - give arg types
+  void Gps_Gpgll_Process();
+..\HARDWARE\GPS\gps.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\TOOLS\tools.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\GPS\gps.c(106): warning:  #1-D: last line of file ends without a newline
+  }
+..\HARDWARE\GPS\gps.c: 6 warnings, 0 errors
+compiling tools.c...
+..\HARDWARE\TOOLS\tools.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\TOOLS\tools.c(12): warning:  #1-D: last line of file ends without a newline
+  }
+..\HARDWARE\TOOLS\tools.c: 2 warnings, 0 errors
+compiling ebook.c...
+..\HARDWARE\EBOOK\ebook.h(4): warning:  #1295-D: Deprecated declaration ebook_init - give arg types
+  void ebook_init();
+..\HARDWARE\EBOOK\ebook.h(5): warning:  #1295-D: Deprecated declaration ebook_start - give arg types
+  void ebook_start();
+..\HARDWARE\EBOOK\ebook.h(6): warning:  #1295-D: Deprecated declaration ebook_show - give arg types
+  void ebook_show();
+..\HARDWARE\EBOOK\ebook.h(7): warning:  #1295-D: Deprecated declaration ebook_read - give arg types
+  void ebook_read();
+..\HARDWARE\EBOOK\ebook.h(8): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\EBOOK\ebook.c(30): warning:  #1-D: last line of file ends without a newline
+  }
+..\HARDWARE\EBOOK\ebook.c: 6 warnings, 0 errors
+compiling 24cxx.c...
+compiling myiic.c...
+compiling alarm.c...
+..\HARDWARE\ALARM\alarm.c(17): error:  #167: argument of type "u16 *" is incompatible with parameter of type "u8 *"
+         AT24CXX_Write(0,(u16*)test,1);
+..\HARDWARE\ALARM\alarm.c(19): warning:  #1-D: last line of file ends without a newline
+  }
+..\HARDWARE\ALARM\alarm.c: 1 warning, 1 error
+compiling delay.c...
+compiling sys.c...
+compiling usart.c...
+..\SYSTEM\usart\usart.c(229): warning:  #1-D: last line of file ends without a newline
+  } 
+..\SYSTEM\usart\usart.c: 1 warning, 0 errors
+compiling core_cm3.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_usart.c...
+compiling misc.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_tim.c...
+compiling malloc.c...
+compiling usmart.c...
+compiling usmart_config.c...
+compiling usmart_str.c...
+compiling exfuns.c...
+compiling fattester.c...
+compiling diskio.c...
+compiling ff.c...
+compiling cc936.c...
+"..\OBJ\FATFS.axf" - 1 Error(s), 23 Warning(s).
+Target not created
